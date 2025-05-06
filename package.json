@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint ."
   },
   "dependencies": {
     "chart.js": "^4.3.0",
@@ -16,6 +17,6 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "^9.26.0"
+    "eslint": "^8.57.1"
   }
 }
